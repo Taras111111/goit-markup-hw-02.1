@@ -3,7 +3,7 @@ body{
     font-family: Roboto, sans-serif;
 }
 
-
+/* Класи индекс */
 .header {}
 
 .header-logo {
@@ -198,3 +198,46 @@ font-weight: 500;
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);}
+    /* класи портфолио */
+        .portfolio {}
+    
+        .portfolio-section {}
+    
+        .hide {}
+    
+        .portfolio-list {}
+    
+        .portfolio-filter {}
+    
+        .portfolio-btn {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            /* identical to box height, or 162% */
+        
+            text-align: center;
+            letter-spacing: 0.03em;
+        
+            color: #FFFFFF;}
+    
+        .portfolio-items {}
+    
+        .portfolio-item {}
+    
+        .portfolio-title {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 36px;
+            /* identical to box height, or 200% */
+        
+            letter-spacing: 0.06em;
+        
+            color: #212121;}
+    
+        .portfolio-subtitle {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            /* identical to box height, or 188% */
+        
+            letter-spacing: 0.03em;}
