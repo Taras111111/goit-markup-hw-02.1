@@ -6,12 +6,14 @@
     --secondary-text-color: #757575;
     --wite-color:#ffffff;
     --black-color:#000000;
-    
+    --footer-address-color:rgba(255, 255, 255, 0.6);
+    --background-btn-color:#F5F4FA;
 
 }
 body{
     font-family: Roboto, sans-serif;
-    background-color: #757575;
+    background-color: #d2f5f2;
+    letter-spacing: 0.03em;
 }
 
 
@@ -22,66 +24,60 @@ body{
     text-decoration: none;
 }
 
-}
-/* Класи индекс */
-.header {}
-
+/* --------------------------------------------- Логотип --------------------------------------------------------- */
 .header-logo {
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
- 
-        letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
     
-        color: #212121;
+    color:var(--black-color)
 }
 .span{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-.header-nav {}
-
-.header-list {}
-
-.header-item {}
-
+.header-link:focus,
+.header-link:hover {
+    color: var(--accent-color);
+}
 .header-link {
-font-weight: 500;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-    color: #212121;
+    color: var(--main-text-color);
 }
+/* -- ----------------------------------------пошта та телефон-------------------------------------- */
 
-.header-contact {
+.header-address:focus,
+.header-address:hover {
+    color: var(--accent-color);}
+
+.header-address {
     font-weight: 500;
         font-size: 14px;
         line-height: 1.19;
         letter-spacing: 0.02em;
     
-        color: #757575;
-}
+        color: var(--secondary-text-color);}
 
-.header-mail {}
-
-.header-tell {}
-
-.main {}
-
-.hero {}
+/* -----------------------------------------HERO--------------------------------------- */
 
 .main-hero {
     font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
+    font-size: 44px;
+    line-height: 1.36;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-    
-        color: #FFFFFF;
-}
+    color: var(--wite-color);}
+
+.main-button:hover,
+.main-button:focus{
+    background-color: var(--wite-color);
+    color: var(--accent-color);}
 
 .main-button {
     font-family:inherit;
@@ -92,174 +88,114 @@ font-weight: 500;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-background-color: #2196F3;
-    color: #FFFFFF;}
 
-.quality {}
-
-.hide {}
-
-.quality-list {}
-
-.quality-item {}
+    background-color: var(--accent-color);
+    color: var(--wite-color);}
+/* ------------------------------------------ якості----------------------------------- */
 
 .quality-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #212121;}
+    color: var(--main-text-color);}
 
 .quality-subtitle {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
 
-    letter-spacing: 0.03em;
-
-    color: #757575;}
-
-.job {}
-
+    color: var(--subtitle-color);}
+/* -------------------------------------------картинки роботи------------------------------------------ */
 .job-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 
-    color: #212121;}
+    color: var(--main-text-color);}
 
-.job-list {}
-
-.job-item {}
-
-.team {}
+/* ----------------------------------- команда -------------------------------------------------------------- */
 
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.71;
     text-align: center;
-    letter-spacing: 0.03em;
 
-    color: #212121;}
-
-.team-list {}
-
-.team-item {}
+    color: var(--main-text-color);}
 
 .team-heading {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    /* identical to box height */
-
     text-align: center;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;
+
+color: var(--main-text-color);}
 
 .team-subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    /* identical to box height */
-
     text-align: center;
-    letter-spacing: 0.03em;
 
-    color: #757575;
-}
-
-.footer {}
-
+    color: var(--subtitle-color);}
+/* ---------------------------------------------логотип футера --------------------------------- */
 .footer-logo {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
 
-    letter-spacing: 0.03em;
+    color: var(--wite-color);}
+/* --------------------------------------------------- контакти------------------------------------------- */
+.footer-address {
+    background-color: var(--black-color);
+}
 
-    color: #FFFFFF;}
-
-.footer-address {}
-
-.footer-list {}
-
-.footer-item {}
+/* --------------------------------------- телефон та пошта ---------------------------------- */
 
 .footer-gps {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
 
-    letter-spacing: 0.03em;
-
-    color: #FFFFFF;}
-
-.footer-mail {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    /* or 171% */
-
-    letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);}
+    color:var(--wite-color);}
 
 .footer-tel {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
 
-    letter-spacing: 0.03em;
+    color: var(--footer-address-color);}
 
-    color: rgba(255, 255, 255, 0.6);}
-    /* класи портфолио */
-        .portfolio {}
-    
-        .portfolio-section {}
-    
-        .hide {}
-    
-        .portfolio-list {}
-    
-        .portfolio-filter {}
-    
-        .portfolio-btn {
-            font-family: inherit;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.63;
-            text-align: center;
-            letter-spacing: 0.03em;
-            color: #212121;
-            background-color: #F5F4FA;}
-            
-    
-        .portfolio-items {}
-    
-        .portfolio-item {}
-    
-        .portfolio-title {
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 2.0;
-            /* identical to box height, or 200% */
+/* --------------------------------------------- фільтр-------------------------------------------- */
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+
+    color: var(--main-text-color);
+    background-color: var(--background-btn-color);}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: var(--wite-color);
+    background-color: var(--accent-color); }
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
         
-            letter-spacing: 0.06em;
-        
-            color: #212121;}
+color:var(--main-text-color);}
+.portfolio-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: var(--subtitle-color);}
     
-        .portfolio-subtitle {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.88;
-            /* identical to box height, or 188% */
-        
-            letter-spacing: 0.03em;}
