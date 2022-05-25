@@ -22,19 +22,20 @@ body{
     list-style: none;
 }
 .link{
-    text-decoration: none;
-}
+    text-decoration: none;}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}    
+
 .header-link.curent{
     color: var(--accent-color);
 }
 /* --------------------------------------------- Логотип --------------------------------------------------------- */
 .header-logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    
-    color:var(--black-color)
+     color:var(--black-color)
 }
 .span{
     color: var(--accent-color);
@@ -132,7 +133,6 @@ body{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 
 color: var(--main-text-color);}
 
@@ -144,10 +144,6 @@ color: var(--main-text-color);}
     color: var(--subtitle-color);}
 /* ---------------------------------------------логотип футера --------------------------------- */
 .footer-logo {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-
     color: var(--wite-color);}
 /* --------------------------------------------------- контакти------------------------------------------- */
 .footer-address {
