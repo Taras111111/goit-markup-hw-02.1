@@ -1,7 +1,19 @@
+:root{
+    --main-text-color:#212121;
+    --accent-color:#2196F3;
+    --title-color:#212121;
+    --subtitle-color: #757575;
+    --secondary-text-color: #757575;
+    --wite-color:#ffffff;
+    --black-color:#000000;
+    
 
+}
 body{
     font-family: Roboto, sans-serif;
+    background-color: #757575;
 }
+
 
 .list{
     list-style: none;
@@ -9,17 +21,22 @@ body{
 .link{
     text-decoration: none;
 }
+
+}
 /* Класи индекс */
 .header {}
 
 .header-logo {
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
  
         letter-spacing: 0.03em;
     
-        color: #2196F3;
+        color: #212121;
+}
+.span{
+    color: #2196F3;
 }
 
 .header-nav {}
@@ -31,7 +48,7 @@ body{
 .header-link {
 font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: #212121;
@@ -40,7 +57,7 @@ font-weight: 500;
 .header-contact {
     font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.19;
         letter-spacing: 0.02em;
     
         color: #757575;
@@ -57,7 +74,7 @@ font-weight: 500;
 .main-hero {
     font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.36;
     
         text-align: center;
         letter-spacing: 0.06em;
@@ -67,16 +84,15 @@ font-weight: 500;
 }
 
 .main-button {
+    font-family:inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
+background-color: #2196F3;
     color: #FFFFFF;}
 
 .quality {}
@@ -90,7 +106,7 @@ font-weight: 500;
 .quality-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -99,7 +115,7 @@ font-weight: 500;
 .quality-subtitle {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -111,7 +127,7 @@ font-weight: 500;
 .job-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -126,7 +142,7 @@ font-weight: 500;
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.71;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -139,7 +155,7 @@ font-weight: 500;
 .team-heading {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     /* identical to box height */
 
     text-align: center;
@@ -148,7 +164,7 @@ font-weight: 500;
 .team-subtitle {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     /* identical to box height */
 
     text-align: center;
@@ -162,7 +178,7 @@ font-weight: 500;
 .footer-logo {
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -178,7 +194,7 @@ font-weight: 500;
 .footer-gps {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -188,7 +204,7 @@ font-weight: 500;
 .footer-mail {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -198,7 +214,7 @@ font-weight: 500;
 .footer-tel {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -216,15 +232,15 @@ font-weight: 500;
         .portfolio-filter {}
     
         .portfolio-btn {
+            font-family: inherit;
             font-weight: 500;
             font-size: 16px;
-            line-height: 26px;
-            /* identical to box height, or 162% */
-        
+            line-height: 1.63;
             text-align: center;
             letter-spacing: 0.03em;
-        
-            color: #FFFFFF;}
+            color: #212121;
+            background-color: #F5F4FA;}
+            
     
         .portfolio-items {}
     
@@ -233,7 +249,7 @@ font-weight: 500;
         .portfolio-title {
             font-weight: 700;
             font-size: 18px;
-            line-height: 36px;
+            line-height: 2.0;
             /* identical to box height, or 200% */
         
             letter-spacing: 0.06em;
@@ -243,7 +259,7 @@ font-weight: 500;
         .portfolio-subtitle {
             font-weight: 400;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.88;
             /* identical to box height, or 188% */
         
             letter-spacing: 0.03em;}
