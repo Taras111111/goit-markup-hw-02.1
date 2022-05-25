@@ -3,6 +3,12 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
 /* Класи индекс */
 .header {}
 
