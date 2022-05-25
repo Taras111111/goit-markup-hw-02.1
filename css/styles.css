@@ -15,6 +15,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--wite-color);
     letter-spacing: 0.03em;
+    color: var(--main-text-color);
 }
 
 
@@ -53,7 +54,8 @@ body{
     color: var(--main-text-color);
 }
 /* -- ----------------------------------------пошта та телефон-------------------------------------- */
-
+.hover:focus,
+.hover:hover,
 .header-address:focus,
 .header-address:hover {
     color: var(--accent-color);}
@@ -103,8 +105,7 @@ body{
     font-size: 14px;
     line-height: 1.19;
     text-transform: uppercase;
-
-    color: var(--main-text-color);}
+}
 
 .quality-subtitle {
     font-size: 14px;
@@ -116,25 +117,20 @@ body{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-
-    color: var(--main-text-color);}
-
+}
 /* ----------------------------------- команда -------------------------------------------------------------- */
-
 .team-title {
     font-size: 36px;
     line-height: 1.71;
     text-align: center;
-
-    color: var(--main-text-color);}
+}
 
 .team-heading {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-
-color: var(--main-text-color);}
+}
 
 .team-subtitle {
     font-size: 16px;
@@ -172,7 +168,7 @@ color: var(--main-text-color);}
     line-height: 1.63;
     text-align: center;
 
-    color: var(--main-text-color);
+    /* color: var(--main-text-color); */
     background-color: var(--background-btn-color);}
 
 .portfolio-btn:hover,
@@ -184,7 +180,8 @@ color: var(--main-text-color);}
     line-height: 2.0;
     letter-spacing: 0.06em;
         
-color:var(--main-text-color);}
+color:var(--main-text-color);
+}
 .portfolio-subtitle {
     font-size: 16px;
     line-height: 1.88;
