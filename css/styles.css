@@ -128,13 +128,11 @@ body{
 .job-title {
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
 }
 /* ----------------------------------- команда -------------------------------------------------------------- */
 .team-title {
     font-size: 36px;
     line-height: 1.71;
-    text-align: center;
 }
 
 .team-heading {
@@ -154,7 +152,7 @@ body{
 .footer-logo {
     color: var(--wite-color);}
 /* --------------------------------------------------- контакти------------------------------------------- */
-.footer-address {
+.footer {
     background-color: var(--black-color);
 }
 
@@ -193,6 +191,10 @@ body{
     letter-spacing: 0.06em;
         
 color:var(--main-text-color);
+}
+.portfolio-link:hover,
+.portfolio-link:focus{
+    color: var(--accent-color);
 }
 .portfolio-subtitle {
     font-size: 16px;
